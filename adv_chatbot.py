@@ -15,7 +15,7 @@ import json
 
 client = OpenAI(
 base_url="https://openrouter.ai/api/v1",
-api_key="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",
+api_key="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",
 )
 
 
@@ -31,7 +31,7 @@ class ChatBot:
         self.root.bind('<Return>', self.enter_func)
         
 
-        self.history_file = "chat_history.json"
+        self.history_file = "chat_history1.json"
         self.history_data = self.load_history()
 
 
